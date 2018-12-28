@@ -1,4 +1,4 @@
-# Bupt-air 后台
+# 后台
 > Flask + MySQL
 
 #### Installation
@@ -97,16 +97,3 @@ set_number_request(self, number)   # 设置每秒处理的请求数目
 set_schedule(self, choice)        # 设置调度类型
 
 ```
-
-
-=======
-#计算消费能量及金额
-energy_and_cost.py
-里面有一个名为coster的类，该类有run()和exit方法
-主机启动后实例化一个coster对象，调用run()方法即可一秒更新一次从控机的能量和金额，调用exit()方法即可退出费用计算
-
-=======
-#计算消费能量及金额
-energy_and_cost.py
-里面有一个名为coster的类，该类有run()和exit方法
-主机启动后实例化一个coster对象，调用run()方法即可一秒更新一次从控机的能量和金额，调用exit()方法即可退出费用计算
